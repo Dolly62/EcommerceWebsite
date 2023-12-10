@@ -1,12 +1,8 @@
 import React from "react";
-import SignUp from "./SignUp";
-
-
+import EcommerceLogo from "../../assets/onlineShop.png";
 
 const SignupPage = () => {
-
   return (
-    <>
     <div className="mb-10">
       <div className="flex justify-center">
         <img alt="Image" className="h-14 w-14" src={EcommerceLogo} />
@@ -15,8 +11,6 @@ const SignupPage = () => {
         Welcome!
       </h2>
     </div>
-      <SignUp/>
-    </>
   );
 };
 
