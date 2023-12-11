@@ -426,25 +426,3 @@ export const companies = [
 ];
 
 
-export const navBtn = [
-  {
-    id: 1,
-    text: "Products",
-    linkTo: "/products", 
-  },
-  {
-    id: 2,
-    text: "Cart",
-    linkTo: "/cart",
-  },
-  {
-    id: 3,
-    text: "Login",
-    linkTo: "/login"
-  },
-  {
-    id: 4,
-    text: "Signup",
-    linkTo: "/signup"
-  }
-]

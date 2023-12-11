@@ -19,13 +19,12 @@ const Header = () => {
 
   return (
     <> 
-      <nav className="fixed z-10 flex w-full items-center text-gray-500 shadow-lg py-4  justify-around h-16 bg-transparent">
-      {/* <nav className="fixed z-10 flex flex-col w-full items-center bg-pink-100 justify-around py-2 text-gray-500 shadow-lg h-screen lg:py-4 lg:flex-row lg:justify-around lg:h-16 lg:bg-transparent"> */}
+      <nav className="fixed z-10 flex w-full items-center text-gray-500 justify-between shadow-lg py-4 px-3 h-16 bg-transparent lg:justify-around">
         <h2 className="font-bold text-pink-600 text-2xl cursor-pointer">
           Ecomme
         </h2>
 
-        <ul className=" flex  flex-col justify-between  w-1/4 text-xl lg:flex-row lg:items-center lg:space-x-4 lg:spacy-0">
+        <ul className=" flex space-x-5 text-xl lg:items-center lg:justify-around lg:w-1/4">
           <li className={navClassName}>
             <NavLink to="/products">Products</NavLink>
           </li>
