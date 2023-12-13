@@ -4,7 +4,6 @@ const AddCartBtn = (props) => {
 
     const addItemBtnHandler = () => {
         props.onAddItem()
-        alert("Added")
     }
 
   return (
